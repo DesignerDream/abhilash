@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1.0,user-scalable=no">
 
-    <title>HTML5 Vibration</title>
+    <title>Johnny's Prank Trimmer</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -17,21 +17,50 @@
     <div class="container-fluid">
         
         <div id="supported" class="row">
-            <!-- <div class="col-xs-12 col-sm-6">
-                <button id="one" type="button" class="btn btn-primary btn-lg btn-block">One Second Vibration</button>
-            </div>
-            <div class="col-xs-12 col-sm-6">
+          <!--  <div class="col-xs-12 col-sm-12">
+                <img id="image" src="images/trimmer.png" />
+<button id="clickme" onclick="changeImage();"></button>
+                
+            </div> -->
+          <!--  <div class="col-xs-12 col-sm-6">
                 <button id="pattern" type="button" class="btn btn-info btn-lg btn-block">Vibration Pattern</button>
             </div> -->
             <div class="col-xs-12 col-sm-12">
-                <button id="ten" type="button"><img src="images/trimmer.jpg" width="100%"></button>
+                <audio id="sound1" src="audio/trimmer.wav"></audio>
+               <button id="ten myAudio" type="button" onclick="document.getElementById('sound1').play();">
+                   <img src="images/trimmer.jpg" width="100%"></button>
+               
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <button id="stop" type="button" class="btn btn-danger btn-lg btn-block">OFF JRIMMER</button>
+            <div class="col-xs-12 col-sm-12">
+                <button id="stop" type="button" class="btn btn-danger btn-lg btn-block" onclick="refreshPage()">Turn Off</button>
             </div>
         </div>
     </div>
+    
 
+ 
+    <script> 
+
+function changeImage()
+{
+var img = document.getElementById("image");
+img.src="images/trimmer.jpg";
+return false;
+}
+
+</script>
+
+    
+    
+
+ <script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script>
+    
+    
+    
     <script>
         $(document).ready(function () {
             navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
