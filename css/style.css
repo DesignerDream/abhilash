@@ -14,7 +14,7 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  /*font-size: 16px; */
   line-height: 1.6;
   color: rgba(0, 0, 0, 0, 1);
 }
@@ -23,7 +23,7 @@ body {
     font-size: 16px;
   }
 }
-
+/*#7ac143 */
 a {
   color: #7ac143;
   -webkit-transition: 0.5s;
@@ -31,7 +31,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #7ac143;
+  color: #323232;
   outline: none;
 }
 
@@ -43,10 +43,10 @@ font-family: avenir;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #7ac143;
+  color: #323232;
   font-family: "avenir";
   font-weight: 700;
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
 }
 
 figure {
@@ -133,7 +133,7 @@ figure figcaption {
 #fh5co-aside #fh5co-main-menu ul {
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 50px 0px 0px 0px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-main-menu ul {
@@ -489,7 +489,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   border-radius: 50%;
 }
 .fh5co-testimonial .item p {
-  font-size: 30px;
+  font-size: 24px;
     font-family: avenir;
 }
 @media screen and (max-width: 768px) {
