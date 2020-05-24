@@ -276,7 +276,7 @@ font-family: avenir;
 
 .fh5co-gallery {
   position: relative;
-  margin-bottom: 7em;
+  /* margin-bottom: 7em; */
   float: left;
   width: 100%;
 }
