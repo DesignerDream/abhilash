@@ -97,9 +97,9 @@ figure figcaption {
   bottom: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
+ /* overflow-y: scroll; */
   background: #e6e6e6;
-  z-index: 1001;
+ /* z-index: 1001; */
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
   -ms-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
@@ -110,7 +110,7 @@ figure figcaption {
   transition: 0.5s;
 }
 #fh5co-aside.border {
-  border-right: 1px solid #e6e6e6;
+ /* border-right: 1px solid #e6e6e6;*/
 }
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
