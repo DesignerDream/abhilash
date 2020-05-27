@@ -43,7 +43,7 @@ font-family: avenir;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #323232;
+  color: #050121;
   font-family: "avenir";
   font-weight: 700;
   margin: 0 0 0 0;
@@ -274,6 +274,11 @@ font-family: avenir;
   }
 }
 
+.content2 {
+                  display: none;
+                  overflow: hidden;
+                  background-color: #fff;
+                  }
 .fh5co-gallery {
   position: relative;
   /* margin-bottom: 7em; */
@@ -320,6 +325,11 @@ font-family: avenir;
                    {
                        padding: 0px 0px 0px 0px;
                        line-height: 70px;
+                   }
+ .nogapbro
+                   {
+                       padding: 0px 0px 0px 0px;
+                      line-height: 22px;
                    }
 
 
