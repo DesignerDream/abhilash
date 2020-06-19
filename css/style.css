@@ -43,7 +43,7 @@ font-family: avenir;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #323232;
+  color: #050121;
   font-family: "avenir";
   font-weight: 700;
   margin: 0 0 0 0;
@@ -97,9 +97,9 @@ figure figcaption {
   bottom: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
+ /* overflow-y: scroll; */
   background: #e6e6e6;
-  z-index: 1001;
+ /* z-index: 1001; */
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
   -ms-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
@@ -110,7 +110,7 @@ figure figcaption {
   transition: 0.5s;
 }
 #fh5co-aside.border {
-  border-right: 1px solid #e6e6e6;
+ /* border-right: 1px solid #e6e6e6;*/
 }
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
@@ -274,9 +274,14 @@ font-family: avenir;
   }
 }
 
+.content2 {
+                  display: none;
+                  overflow: hidden;
+                  background-color: #fff;
+                  }
 .fh5co-gallery {
   position: relative;
-  margin-bottom: 7em;
+  /* margin-bottom: 7em; */
   float: left;
   width: 100%;
 }
@@ -315,6 +320,19 @@ font-family: avenir;
     width: 100%;
   }
 }
+
+ .gapbro
+                   {
+                       padding: 0px 0px 0px 0px;
+                       line-height: 70px;
+                   }
+ .nogapbro
+                   {
+                       padding: 0px 0px 0px 0px;
+                      line-height: 22px;
+                   }
+
+
 .fh5co-gallery .gallery-item .overlay {
   position: absolute;
   right: 0;
@@ -533,13 +551,13 @@ font-family: avenir;
 }
 
 .fh5co-lead {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .fh5co-heading-colored {
   color: #7ac143;
-font-family: avenir;
+font-family: MONTSERRAT Black;
 }
 
 .fh5co-cards {
@@ -751,7 +769,7 @@ font-family: avenir;
 .fh5co-heading {
   font-size: 36px;
  /* margin-bottom: 1em; */
-font-family: avenir;
+font-family: Montserrat Black;
 }
 .fh5co-heading.fh5co-light {
   color: #fff;
